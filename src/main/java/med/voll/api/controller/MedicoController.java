@@ -13,7 +13,8 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
 @RestController
-@RequestMapping("medicos")
+@RequestMapping("/medicos")
+@CrossOrigin(origins = "http://localhost:5173")
 public class MedicoController {
 
     @Autowired
@@ -36,7 +37,7 @@ public class MedicoController {
        return ResponseEntity.ok(page);
     }
 
-    @PutMapping
+    @PutMapping("/{id}")
     @Transactional
     public ResponseEntity atualizar(@RequestBody @Valid DadosAtualizacaoMedico dados){
         var medico = repository.getReferenceById(dados.id());
