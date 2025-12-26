@@ -39,4 +39,9 @@ CONFIG DO BANCO:
 Mude as configuraçãoes do banco ( usuario e senha ) em aplication prorpeties
 
 
+JSON:
+
+<img width="253" height="256" alt="image" src="https://github.com/user-attachments/assets/4d36f13a-b063-497c-81d4-eba3231d1a61" />
+
+
 
