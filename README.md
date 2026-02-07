@@ -36,7 +36,7 @@ git clone https://github.com/ElevirJJ/Cadastro_Medicos.git
 
 CONFIG DO BANCO:
 
-Mude as configuraçãoes do banco ( usuario e senha ) em aplication prorpeties
+Mude as configuraçãoes do banco ( usuario e senha ) em aplication prorpeties.
 
 
 JSON:
